@@ -1,0 +1,441 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
+  display: block; }
+
+audio, canvas, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+[hidden] {
+  display: none; }
+
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+a:focus {
+  outline: thin dotted; }
+
+a:active, a:hover {
+  outline: 0; }
+
+h1 {
+  font-size: 2em; }
+
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+b, strong {
+  font-weight: 700; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background: #ff0;
+  color: #000; }
+
+code, kbd, pre, samp {
+  font-family: monospace, serif;
+  font-size: 1em; }
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+q {
+  quotes: \201C \201D \2018 \2019; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+img {
+  border: 0; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+button, input, select, textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0; }
+
+button, input {
+  line-height: normal; }
+
+button, html input[type=button],
+input[type=reset], input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+button[disabled], input[disabled] {
+  cursor: default; }
+
+input[type=checkbox], input[type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box; }
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+textarea {
+  overflow: auto;
+  vertical-align: top; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body, figure {
+  margin: 0; }
+
+legend, button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  min-height: 100%;
+  background: #93cede;
+  background: -webkit-linear-gradient(top, #A4DCE3 0%, #7AB6C1 45%, #559DA9 100%);
+  background: linear-gradient(to bottom, #A4DCE3 0%, #7AB6C1 45%, #559DA9 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=0 );
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 10px; }
+
+body {
+  overflow: hidden;
+  font-family: 'Quicksand', sans-serif;
+  color: #002C33; }
+
+#hogswatch, #festivus, #decemberween, #robanukah, #winterveil {
+  visibility: hidden; }
+
+main {
+  padding: 20px 5% 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  overflow: hidden; }
+
+section {
+  width: 52%; }
+
+p {
+  line-height: 1.45;
+  font-size: 1.5rem; }
+
+a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #002C33;
+  -webkit-transition: 0.35s color;
+  transition: 0.35s color; }
+  a:hover {
+    color: #B90D22; }
+
+aside {
+  width: 48%;
+  margin-left: -5%; }
+  aside h1, aside p, aside nav, aside div {
+    -webkit-animation-name: fadeIn;
+            animation-name: fadeIn;
+    -webkit-animation-delay: 3.5s;
+            animation-delay: 3.5s;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-fill-mode: both;
+            animation-fill-mode: both; }
+  aside p, aside div {
+    text-align: left;
+    margin: 15px 12% 15px 8%;
+    position: relative;
+    z-index: 20; }
+  aside .fadeTime {
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s; }
+  aside nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 20px 10%; }
+    aside nav .prev2 {
+      visibility: hidden; }
+  aside p:last-of-type {
+    margin-top: 12px;
+    padding-top: 12px;
+    text-align: center;
+    border-top: 1px solid #002C33; }
+    aside p:last-of-type strong {
+      display: block;
+      font-size: 26px;
+      font-family: 'Mountains of Christmas', cursive; }
+  aside p.override {
+    margin: 15px 8%;
+    padding: 0;
+    border: 0;
+    text-align: left; }
+  aside div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around; }
+    aside div a {
+      width: 40%;
+      text-align: center;
+      padding: 10px 8px;
+      border: 1px solid #002C33;
+      background: #002C33;
+      color: #fff;
+      font-size: 12px;
+      font-weight: normal;
+      text-transform: uppercase;
+      -webkit-transition: 0.35s all;
+      transition: 0.35s all; }
+      aside div a:hover {
+        background: #B90D22;
+        color: #fff;
+        border: 1px solid #B90D22; }
+
+nav.fadeTime {
+  -webkit-animation-name: fadeIn;
+          animation-name: fadeIn;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+  left: 0;
+  padding: 0 2%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: auto; }
+
+nav.initial {
+  display: none; }
+
+aside nav a:hover svg path {
+  fill: #B90D22;
+  stroke: #B90D22; }
+
+h1, h1 span {
+  font-family: 'Mountains of Christmas', cursive;
+  margin: -10px 0 30px;
+  font-size: 6.5rem;
+  font-weight: normal;
+  text-transform: none;
+  padding: 0 8%; }
+
+h1 span {
+  display: block;
+  margin-top: 0;
+  font-size: 4rem;
+  padding: 0; }
+
+h1.begin {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0 8%;
+  margin-top: 80px; }
+
+.prev path, .next path {
+  -webkit-transition: 0.35s all;
+  transition: 0.35s all; }
+  .prev path:hover, .next path:hover {
+    cursor: pointer;
+    fill: #BE0808;
+    stroke: #BE0808; }
+
+section svg {
+  width: 95%;
+  margin: 0 auto; }
+
+.bounceInDown.n {
+  -webkit-animation-delay: 0.25s;
+          animation-delay: 0.25s; }
+
+.bounceInDown.e {
+  -webkit-animation-delay: 0.45s;
+          animation-delay: 0.45s; }
+
+.bounceInDown.r {
+  -webkit-animation-delay: 0.65s;
+          animation-delay: 0.65s; }
+
+.bounceInDown.d {
+  -webkit-animation-delay: 0.85s;
+          animation-delay: 0.85s; }
+
+.bounceInDown.y {
+  -webkit-animation-delay: 1.05s;
+          animation-delay: 1.05s; }
+
+.bounceInDown.h {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s; }
+
+.bounceInDown.o {
+  -webkit-animation-delay: 1.55s;
+          animation-delay: 1.55s; }
+
+.bounceInDown.l {
+  -webkit-animation-delay: 1.65s;
+          animation-delay: 1.65s; }
+
+.bounceInDown.i {
+  -webkit-animation-delay: 1.85s;
+          animation-delay: 1.85s; }
+
+.bounceInDown.d2 {
+  -webkit-animation-delay: 2.05s;
+          animation-delay: 2.05s; }
+
+.bounceInDown.a {
+  -webkit-animation-delay: 2.25s;
+          animation-delay: 2.25s; }
+
+.bounceInDown.y2 {
+  -webkit-animation-delay: 2.45s;
+          animation-delay: 2.45s; }
+
+.bounceInDown.s {
+  -webkit-animation-delay: 2.65s;
+          animation-delay: 2.65s; }
+
+.when {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5; }
+
+footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 10; }
+  footer svg {
+    width: 100%;
+    position: relative;
+    top: 20px; }
+  footer p {
+    text-align: center;
+    color: #88C1CB;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.25px;
+    margin-bottom: -10px; }
+    footer p a {
+      text-decoration: none;
+      font-weight: bold;
+      color: #88C1CB;
+      -webkit-transition: 0.5s color;
+      transition: 0.5s color; }
+      footer p a:hover {
+        color: #fff; }
+
+@-webkit-keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); } }
+
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px); }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px); } }
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+/*# sourceMappingURL=style.css.map */

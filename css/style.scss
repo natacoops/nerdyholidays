@@ -1,0 +1,271 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+html {
+	min-height:100%;
+	background: rgba(147,206,222,1);
+	background: linear-gradient(to bottom, #A4DCE3 0%, #7AB6C1 45%, #559DA9 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=0 );
+	background-size: cover;
+	background-repeat:no-repeat;
+	font-size: 10px;
+}
+body {
+	overflow:hidden;
+	font-family: 'Quicksand', sans-serif;
+	color: #002C33;
+}
+#hogswatch, #festivus, #decemberween, #robanukah, #winterveil {
+    visibility: hidden;
+}
+main {
+    padding: 20px 5% 0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+    // flex-direction:column;
+}
+section {
+	width: 52%;
+}
+p {
+	line-height:1.45;
+	font-size: 1.5rem;
+}
+a {
+	text-decoration:none;
+	font-weight:bold;
+	color: #002C33;
+	transition: 0.35s color;
+	&:hover {color:#B90D22;}
+}
+aside {
+	width: 48%;
+	margin-left: -5%;
+	h1, p, nav, div {
+		animation-name: fadeIn;  
+		animation-delay: 3.5s;
+	    animation-duration: 2s;
+	    animation-fill-mode: both;
+    }
+    p, div {
+    	text-align:left;
+    	margin: 15px 12% 15px 8%;
+    	position: relative;
+    	z-index: 20;
+    }
+    .fadeTime {
+    	animation-delay: 0.5s;
+    }
+    nav {
+    	display:flex;
+    	justify-content:space-between;
+    	align-items:center;
+    	padding: 20px 10%;
+    	.prev2 {
+    		visibility:hidden;
+    	}
+    }
+    p:last-of-type {
+    	margin-top:12px;
+    	padding-top:12px;
+    	text-align:center;
+    	border-top:1px solid #002C33;
+    	strong {
+    		display:block;
+    		font-size: 26px;
+    		font-family: 'Mountains of Christmas', cursive;
+    	}
+    }
+    p.override {
+    	margin: 15px 8%;
+    	padding:0;
+    	border:0;
+    	text-align:left;
+    }
+    div {
+    	display: flex;
+    	justify-content:space-around;
+    	a {
+    		width: 40%;
+    		text-align: center;
+    		padding: 10px 8px;
+    		border: 1px solid #002C33;
+    		background: #002C33;
+    		color: #fff;
+    		font-size: 12px;
+    		font-weight:normal;
+    		text-transform:uppercase;
+    		transition:0.35s all;
+    		&:hover {
+    			background: #B90D22;
+    			color: #fff;
+    			border: 1px solid #B90D22;
+    		}
+    	}
+    }
+}
+nav.fadeTime {
+	animation-name: fadeIn; 
+	animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 1.25s;
+	position:fixed;
+	z-index: 10;
+	width: 100%;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+	padding: 0 2%;
+	display:flex;
+	justify-content:space-between;
+	margin:auto;
+}
+nav.initial {
+	display:none;
+}
+aside nav a:hover svg path {
+	fill: #B90D22;
+	stroke: #B90D22;
+}
+h1, h1 span {
+	font-family: 'Mountains of Christmas', cursive;
+	margin: -10px 0 30px;
+	font-size: 6.5rem;
+	font-weight: normal;
+	text-transform: none;
+	padding: 0 8%;
+}
+h1 span {
+	display: block;
+	margin-top:0;
+	font-size:4rem;
+	padding: 0;
+}
+h1.begin {
+	font-size: 2rem;
+	text-transform: uppercase;
+	font-family:'Quicksand', sans-serif;
+	padding: 0 8%;
+	margin-top: 80px;
+}
+.prev, .next {	
+	path {
+		transition: 0.35s all;
+		&:hover {
+			cursor: pointer;
+			fill: #BE0808;
+			stroke: #BE0808;
+		}
+	}
+}
+
+section svg {
+    width: 95%;
+    margin: 0 auto;
+}
+.bounceInDown.n {
+	animation-delay:0.25s;
+}
+.bounceInDown.e {
+	animation-delay:0.45s;
+}
+.bounceInDown.r {
+	animation-delay:0.65s;
+}
+.bounceInDown.d {
+	animation-delay:0.85s;
+}
+.bounceInDown.y {
+	animation-delay:1.05s;
+}
+.bounceInDown.h {
+	animation-delay:1.25s;
+}
+.bounceInDown.o {
+	animation-delay:1.55s;
+}
+.bounceInDown.l {
+	animation-delay:1.65s;
+}
+.bounceInDown.i {
+	animation-delay:1.85s;
+}
+.bounceInDown.d2{
+	animation-delay:2.05s;
+}
+.bounceInDown.a {
+	animation-delay:2.25s;
+}
+.bounceInDown.y2 {
+	animation-delay:2.45s;
+}
+.bounceInDown.s {
+	animation-delay:2.65s;
+}
+
+.when {
+	font-weight: bold;
+	text-transform:uppercase;
+	letter-spacing: 0.5;
+}
+
+footer {
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	z-index: 10;
+	svg {
+		width: 100%;
+		position:relative;
+		top:20px;
+	}
+	p {
+		text-align: center;
+		color: #88C1CB;
+		font-size: 11px;
+		text-transform: uppercase;
+		letter-spacing: 0.25px;
+		margin-bottom:-10px;
+		a {
+			text-decoration:none;
+			font-weight:bold;
+			color: #88C1CB;
+			transition:0.5s color;
+			&:hover {
+				color: #fff;
+			}
+		}
+	}
+}
+
+
+
+
+// FLOATY LETTERS
+@keyframes hvr-bob {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}

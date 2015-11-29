@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="600px" height="600px" viewBox="0 0 600 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.4 (15588) - http://www.bohemiancoding.com/sketch -->
+    <title>festivus</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="festivus" sketch:type="MSArtboardGroup">
+            <polygon id="poly-01" stroke="#683311" fill="#A77447" sketch:type="MSShapeGroup" points="371.029321 529.221207 384.07742 519.166247 485.962316 564.024835 473.458441 577.22007 406.881726 544.979046 "></polygon>
+            <polygon id="poly-02" stroke="#562E0B" fill="#8B572A" sketch:type="MSShapeGroup" points="398.262636 542.077658 346.902065 559.629319 357.096306 574.17535 475.524722 524.630239 459.472331 519.409477 "></polygon>
+            <polygon id="poly-03" stroke="#193011" fill="#28411A" sketch:type="MSShapeGroup" points="244.791515 176.038011 291.205401 212.678895 282.931429 307.931727 242.453122 324.584305 174.522484 216.279569 "></polygon>
+            <polygon id="poly-04" stroke="#28411A" fill="#1E3212" sketch:type="MSShapeGroup" points="174.739289 215.895179 243.065927 323.25957 205.985701 320.512372 170.186392 323.25957 159.352798 258.121669 "></polygon>
+            <polygon id="poly-05" stroke="#28411A" fill="#1E3212" sketch:type="MSShapeGroup" points="171.889857 323.441992 206.523288 319.889095 242.616832 323.441992 236.75647 335.484056 171.889857 331.883381 "></polygon>
+            <polygon id="poly-06" stroke="#151515" fill="#282828" sketch:type="MSShapeGroup" points="330.155014 540.91037 320.799231 546.360245 292.273938 544.879148 315.234211 538.976473 325.354341 533.175869 "></polygon>
+            <polygon id="poly-07" stroke="#424242" fill="#554834" sketch:type="MSShapeGroup" points="178.909459 510.514204 178.909459 423.911243 214.438869 530.743568 188.437801 543.369818 188.437801 522.960203 "></polygon>
+            <polygon id="poly-08" stroke="#172D10" fill="#2E481F" sketch:type="MSShapeGroup" points="190.428864 141.416806 244.523828 177.551684 118.732904 246.943941 136.805118 186.108173 148.523628 165.079624 "></polygon>
+            <polygon id="poly-09" stroke="#424242" fill="#554834" sketch:type="MSShapeGroup" points="307.866172 400.003023 300.479329 434.930437 290.039523 478.060353 236.831688 375.402031 213.958801 332.569638 "></polygon>
+            <polygon id="poly-10" stroke="#424242" fill="#655A43" sketch:type="MSShapeGroup" points="237.676784 374.774411 231.845439 433.280999 211.335023 522.753892 195.990566 332.62393 214.998579 332.62393 "></polygon>
+            <polygon id="poly-11" stroke="#424242" fill="#655A43" sketch:type="MSShapeGroup" points="199.375 564.945311 219.436436 513.858618 231.500065 523.116565 234.652581 549.196483 224.046875 559.792967 "></polygon>
+            <polygon id="poly-12" stroke="#424242" fill="#554834" sketch:type="MSShapeGroup" points="227.849783 447.667444 227.849783 486.67765 213.323874 532.784963 213.323874 506.580546 213.323874 499.095192 "></polygon>
+            <polygon id="poly-13" stroke="#151515" fill="#292929" sketch:type="MSShapeGroup" points="225.400758 558.432713 237.873678 568.922013 221.848941 577.296079 211.330598 572.403244 197.509304 565.488559 "></polygon>
+            <polygon id="poly-14" stroke="#424242" fill="#554834" sketch:type="MSShapeGroup" points="284.420302 485.980535 295.513473 517.21932 281.933685 527.467562 268.354637 532.240953 250.479318 527.467562 "></polygon>
+            <polygon id="poly-15" stroke="#ECD5B8" fill="#FFE5C2" sketch:type="MSShapeGroup" points="236.127333 97.8406062 244.513872 106.590376 247.936288 118.627011 221.517097 115.823349 196.375504 113.347614 "></polygon>
+            <polygon id="poly-16" stroke="#ECD5B8" fill="#FFE5C2" sketch:type="MSShapeGroup" points="217.19096 115.451989 225.52577 131.017632 217.19096 140.201741 201.802257 131.017632 195.610051 113.095697 "></polygon>
+            <polygon id="poly-17" stroke="#ECD5B8" fill="#FFE5C2" sketch:type="MSShapeGroup" points="241.234149 117.540076 247.733863 118.808347 247.733863 130.192387 244.277409 138.458954 238.968762 130.192387 "></polygon>
+            <polygon id="poly-18" stroke="#AC5A5A" fill="#B61D1D" sketch:type="MSShapeGroup" points="222.253716 114.939468 244.001727 117.409524 238.646874 128.031298 225.128664 128.031298 213.261929 114.939468 "></polygon>
+            <polygon id="poly-19" stroke="#424242" fill="#786B53" sketch:type="MSShapeGroup" points="173.437355 333.420943 196.437449 333.420943 206.532137 426.041678 213.230957 528.489345 173.437355 405.834031 "></polygon>
+            <path d="M222.155343,577.779282 L257.450249,576.026722 C257.450249,576.026722 240.174779,586.656756 239.262997,586.441098 C224.420401,582.930484 192.054064,572.872331 192.054064,572.872331 L192.054064,563.469966 L222.155343,577.779282 Z" id="poly-20" stroke="#151515" fill="#292929" sketch:type="MSShapeGroup"></path>
+            <polygon id="poly-21" stroke="#ECD5B8" fill="#FAD8AE" sketch:type="MSShapeGroup" points="138.11037 267.300349 149.756981 268.47198 160.110508 292.267272 138.11037 297.887625 135.279742 286.007353 "></polygon>
+            <polygon id="poly-22" stroke="#EBD4B7" fill="#DFC4A2" sketch:type="MSShapeGroup" points="202.096492 132.129541 217.37458 140.577445 242.820363 139.308088 239.361444 160.263885 236.72218 170.309073 "></polygon>
+            <polygon id="poly-23" stroke="#424242" fill="#655A43" sketch:type="MSShapeGroup" points="188.488683 543.078811 212.638063 530.966167 198.396484 567.183593 191.663321 562.814452 191.663321 553.624575 "></polygon>
+            <polygon id="poly-24" stroke="#EBD4B7" fill="#FFE4C2" sketch:type="MSShapeGroup" points="191.525054 100.959164 199.502579 123.679465 189.333779 118.168783 183.891541 109.298483 186.00981 100.959164 "></polygon>
+            <polygon id="poly-25" stroke="#E2B883" fill="#EFC693" sketch:type="MSShapeGroup" points="225.671228 104.455597 225.671228 89.0533744 233.697424 111.023897 228.742443 111.023897 222.968914 109.724679 "></polygon>
+            <polygon id="poly-26" stroke="#172D10" fill="#2E481F" sketch:type="MSShapeGroup" points="106.813075 261.479114 151.919497 267.44911 133.241115 284.403554 140.939891 302.591523 120.305844 292.464896 "></polygon>
+            <polygon id="poly-27" stroke="#ECD5B8" fill="#FFE5C2" sketch:type="MSShapeGroup" points="239.025453 129.210508 244.547057 138.608801 232.038758 145.521315 216.46201 140.454744 224.82475 129.210508 "></polygon>
+            <polygon id="poly-28" stroke="#ECD5B8" fill="#FFE4C2" sketch:type="MSShapeGroup" points="177.937157 297.613991 165.355852 312.574817 151.296736 311.28808 136.400268 297.613991 165.355852 290.906703 "></polygon>
+            <polygon id="poly-29" stroke="#1E3212" fill="#1E3212" sketch:type="MSShapeGroup" points="242.891156 325.062079 282.409328 306.982695 287.260885 325.062079 264.779573 335.06709 237.672359 335.06709 "></polygon>
+            <polygon id="poly-30" stroke="#ECD5B8" fill="#FFE5C2" sketch:type="MSShapeGroup" points="228.255185 88.7694249 246.710125 91.4085806 246.710125 100.689874 249.510887 110.104183 247.570707 117.948355 "></polygon>
+            <polygon id="poly-31" stroke="#151515" fill="#292929" sketch:type="MSShapeGroup" points="234.702357 549.944633 248.942654 562.392804 255.064293 568.374745 237.940047 569.644103 225.321133 557.872415 "></polygon>
+            <polygon id="poly-32" stroke="#ECD5B8" fill="#F9D8AE" sketch:type="MSShapeGroup" points="373.961714 251.340543 388.931188 255.425506 381.360725 266.230788 366.919988 273.336583 356.996753 262.338563 "></polygon>
+            <polygon id="poly-33" stroke="#424242" fill="#655A43" sketch:type="MSShapeGroup" points="260.390386 460.986466 238.32941 378.107967 280.433752 460.986466 290.280663 478.099444 252.043408 525.470686 "></polygon>
+            <polygon id="poly-34" stroke="#D6D6D6" fill="#FFFFFF" sketch:type="MSShapeGroup" points="215.409512 115.810319 227.75742 116.692571 242.682095 118.177469 240.059422 122.467658 220.534839 121.149437 "></polygon>
+            <polygon id="poly-35" stroke="#424242" fill="#786B53" sketch:type="MSShapeGroup" points="215.621339 333.766243 263.202209 336.485209 287.698918 326.082777 300.479329 350.335211 306.434819 399.533936 "></polygon>
+            <polygon id="poly-36" stroke="#ECD5B8" fill="#FFE5C2" sketch:type="MSShapeGroup" points="202.649565 71.3534953 220.474001 68.7192259 234.977788 71.3534952 246.531483 91.0518791 193.119011 84.9852416 "></polygon>
+            <polygon id="poly-37" stroke="#ECD5B8" fill="#FFE5C2" sketch:type="MSShapeGroup" points="193.317011 84.3880248 225.510284 88.6472669 224.673485 103.306226 195.385503 113.174964 191.002953 100.183868 "></polygon>
+            <polygon id="poly-38" stroke="#EBD4B7" fill="#FFF0DC" sketch:type="MSShapeGroup" points="225.561167 88.6315221 228.519554 89.2466555 240.260741 107.000827 233.692446 111.121623 231.691428 105.043042 "></polygon>
+            <polygon id="poly-39" stroke="#AEAEAE" fill="#F3F3F3" sketch:type="MSShapeGroup" points="234.783106 95.4636831 239.705708 93.1920873 242.808195 95.4636831 241.614664 98.7624919 236.640325 98.7624919 "></polygon>
+            <polygon id="poly-40" stroke="#AEAEAE" fill="#F3F3F3" sketch:type="MSShapeGroup" points="219.143308 95.0564898 222.873232 98.9806918 217.469709 100.905958 211.117112 100.905958 212.975438 96.857913 "></polygon>
+            <polygon id="poly-41" stroke="#193011" fill="#1E3212" sketch:type="MSShapeGroup" points="288.77614 218.214552 345.273818 266.048365 308.417033 253.626255 294.72737 248.188324 288.77614 240.404959 "></polygon>
+            <polygon id="poly-42" stroke="#8D4507" fill="#B3570A" sketch:type="MSShapeGroup" points="185.634828 73.4242086 197.404222 62.2812298 218.948627 67.5856015 202.353119 71.1526136 192.738497 85.231729 "></polygon>
+            <polygon id="poly-43" stroke="#8D4507" fill="#B3570A" sketch:type="MSShapeGroup" points="186.016447 73.341684 192.799334 85.7051589 191.137903 100.686616 187.573348 100.686616 182.347361 87.070072 "></polygon>
+            <polygon id="poly-44" stroke="#1D3111" fill="#28411A" sketch:type="MSShapeGroup" points="327.932767 214.47326 366.564916 243.606041 361.346119 269.394952 352.400164 269.394952 347.248842 268.819452 "></polygon>
+            <polygon id="poly-45" stroke="#8D4507" fill="#B4570A" sketch:type="MSShapeGroup" points="225.29182 58.1897497 240.772887 69.6584852 245.35399 86.7882937 235.074575 71.2470821 198.757037 62.8056931 "></polygon>
+            <polygon id="poly-46" stroke="#151515" fill="#292929" sketch:type="MSShapeGroup" points="236.7078 569.548548 255.482416 569.548548 260.443481 575.579352 245.854521 581.187762 222.082338 577.852034 "></polygon>
+            <polygon id="poly-47" stroke="#151515" fill="#282828" sketch:type="MSShapeGroup" points="282.668166 527.373093 296.444109 517.693836 324.845514 533.695991 315.600345 538.922181 300.479329 531.209397 "></polygon>
+            <polygon id="poly-48" stroke="#EBD4B7" fill="#FFE4C2" sketch:type="MSShapeGroup" points="379.540009 231.749658 388.588283 226.916545 383.453067 245.353172 363.683406 258.754719 367.388995 242.271533 "></polygon>
+            <polygon id="poly-49" stroke="#151515" fill="#282828" sketch:type="MSShapeGroup" points="254.470293 528.415508 268.750638 532.572137 277.166197 537.65391 260.670242 537.65391 254.470293 537.65391 "></polygon>
+            <polygon id="poly-50" stroke="#ECD5B8" fill="#FFE4C2" sketch:type="MSShapeGroup" points="389.45882 256.399513 398.740491 263.588918 376.743672 277.068645 366.978615 273.117241 379.760132 266.734079 "></polygon>
+            <polygon id="poly-51" stroke="#1E3212" fill="#28411A" sketch:type="MSShapeGroup" points="158.893842 258.983833 150.223775 267.854132 107.394908 261.400932 118.610122 247.188257 176.027949 214.824532 "></polygon>
+            <polygon id="poly-52" stroke="#ECD5B8" fill="#FFE4C2" sketch:type="MSShapeGroup" points="384.50771 245.535595 398.627664 247.663859 398.627664 257.09337 374.293558 252.394359 "></polygon>
+            <polygon id="poly-53" stroke="#6F4B49" fill="#A55348" sketch:type="MSShapeGroup" points="216.66001 97.8406062 219.825246 97.8406062 219.825246 100.055367 215.695451 100.055367 "></polygon>
+            <polygon id="poly-54" stroke="#193011" fill="#2E481F" sketch:type="MSShapeGroup" points="244.105705 178.161931 259.837313 145.458336 288.176774 160.977288 328.013516 214.381506 346.778176 267.566382 "></polygon>
+            <polygon id="poly-55" stroke="#8A4F48" fill="#A55348" sketch:type="MSShapeGroup" points="239.719836 95.4473954 241.08316 96.0456981 241.083161 97.4779327 238.356511 97.4779327 238.356511 96.0456981 "></polygon>
+            <polygon id="poly-56" stroke="#151515" fill="#282828" sketch:type="MSShapeGroup" points="281.548747 527.68256 300.479329 531.132844 315.356993 539.494423 290.350904 544.529505 268.856274 532.751845 "></polygon>
+            <polygon id="poly-57" stroke="#D5D5D5" fill="#B3B1AC" sketch:type="MSShapeGroup" points="412.257595 11.104086 419.44312 11.104086 418.310426 329.477767 412.646959 541.482613 412.257595 541.482613 "></polygon>
+            <polygon id="poly-58" stroke="#D4D4D4" fill="#DFDFDF" sketch:type="MSShapeGroup" points="421.356752 115.40204 421.356752 265.377311 421.356752 542.405584 412.222199 542.405584 419.357946 10.9140625 "></polygon>
+            <polygon id="poly-59" stroke="#8E7516" fill="#EFCD4A" sketch:type="MSShapeGroup" points="243.935358 140.232145 246.274857 136.515828 260.401447 141.512904 243.935358 177.091284 236.424627 170.663058 "></polygon>
+            <polygon id="poly-60" stroke="#8E7516" fill="#EFCD4A" sketch:type="MSShapeGroup" points="241.937658 175.690539 209.091759 160.149871 190.725311 146.735294 190.725311 139.097433 195.271571 126.162802 "></polygon>
+        </g>
+    </g>
+</svg>
