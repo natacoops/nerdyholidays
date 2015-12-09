@@ -22,20 +22,23 @@ body {
     visibility: hidden;
 }
 main {
-    padding: 20px 5% 0;
+    padding: 0 5%;
     display:flex;
     justify-content:center;
     align-items:center;
     position:relative;
     overflow:hidden;
+    height: 100vh;
     // flex-direction:column;
 }
 section {
 	width: 52%;
+	position:relative;
 }
 p {
 	line-height:1.45;
-	font-size: 1.5rem;
+	font-size: 1.45rem;
+	letter-spacing: 0;
 }
 a {
 	text-decoration:none;
@@ -44,20 +47,30 @@ a {
 	transition: 0.35s color;
 	&:hover {color:#B90D22;}
 }
+em.special {
+	font-weight:700;
+}
 aside {
 	width: 48%;
 	margin-left: -5%;
 	h1, p, nav, div {
 		animation-name: fadeIn;  
-		animation-delay: 3.5s;
+		animation-delay: 3s;
 	    animation-duration: 2s;
 	    animation-fill-mode: both;
     }
     p, div {
     	text-align:left;
-    	margin: 15px 12% 15px 8%;
+    	margin: 15px 12% 15px 6%;
     	position: relative;
     	z-index: 20;
+    }
+    .wrap {
+    	height: 100vh;
+	    margin: 0;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
     }
     .fadeTime {
     	animation-delay: 0.5s;
@@ -71,24 +84,29 @@ aside {
     		visibility:hidden;
     	}
     }
+    .infoBurst {
+    	display:none;
+    }
     p:last-of-type {
     	margin-top:12px;
     	padding-top:12px;
     	text-align:center;
     	border-top:1px solid #002C33;
+    	font-size:1.8rem;
     	strong {
     		display:block;
-    		font-size: 26px;
+    		font-size: 2.6rem;
     		font-family: 'Mountains of Christmas', cursive;
     	}
     }
     p.override {
-    	margin: 15px 8%;
+    	margin: 15px 6%;
     	padding:0;
     	border:0;
     	text-align:left;
+    	font-size: 1.45rem;
     }
-    div {
+    div.fadeTime {
     	display: flex;
     	justify-content:space-around;
     	a {
@@ -135,11 +153,11 @@ aside nav a:hover svg path {
 }
 h1, h1 span {
 	font-family: 'Mountains of Christmas', cursive;
-	margin: -10px 0 30px;
+	margin: -10px 0 0px;
 	font-size: 6.5rem;
 	font-weight: normal;
 	text-transform: none;
-	padding: 0 8%;
+	padding: 0 6%;
 }
 h1 span {
 	display: block;
@@ -151,8 +169,9 @@ h1.begin {
 	font-size: 2rem;
 	text-transform: uppercase;
 	font-family:'Quicksand', sans-serif;
-	padding: 0 8%;
+	padding: 0 6%;
 	margin-top: 80px;
+	margin-bottom:0;
 }
 .prev, .next {	
 	path {
@@ -244,7 +263,9 @@ footer {
 	}
 }
 
-
+.close {
+	visibility:hidden;
+}
 
 
 // FLOATY LETTERS
@@ -269,3 +290,6 @@ footer {
   0% {opacity: 0;}
   100% {opacity: 1;}
 }
+
+
+@import "media";

@@ -18,7 +18,7 @@ gulp.task('styles',function() {
 
 gulp.task('watch',function() {
   p.livereload.listen();
-  gulp.watch('./css/style.scss', ['styles']);
+  gulp.watch('./css/*.scss', ['styles']);
 });
 
 gulp.task('browser-sync', function() {

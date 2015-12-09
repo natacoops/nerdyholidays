@@ -1,0 +1,311 @@
+/* MEDIA QUERIES - Screens 1080px and smaller */
+@media (max-width: 1080px) {
+	main {
+		flex-direction:column;
+    padding:0;
+	}
+	section {
+		width: 46%;
+    text-align: center;
+    svg {
+      position:relative;
+      top: -100px;
+      width: 100%;
+    }
+	}
+
+  .lightBox {
+    transition:0.5s all;
+    transition-timing-function: ease-in-out;
+    background-image: radial-gradient(circle, #fff,rgba(255,255,255,0.65)); 
+    flex-direction:column; 
+    justify-content:center;
+    padding-bottom: 0px;
+    .close {
+        position: absolute;
+        font-size: 25px;
+        right: 0;
+        top: 200px;
+        padding: 20px;
+        visibility:visible;
+        &:hover {
+          cursor:pointer;
+        }
+    }
+    p, h1, div {
+      display:block;
+    }
+    h1 {
+      padding: 0;
+      position: relative;
+      .close {
+        right: -100px;
+        top: 0;
+      }
+      span {
+        font-family: 'Quicksand',sans-serif;
+      }
+    }
+    h1.begin {
+      display:none;
+    }
+    nav {
+      visibility:hidden;
+    }
+    div.fadeTime {
+      display: flex;
+      margin-bottom: 50px;
+      position: relative;
+      z-index:555;
+      a {
+        background: transparent;
+        border: 2px solid #002C33;
+        color: #002C33;
+        font-weight: 700;
+        letter-spacing:1px;
+        &:hover {
+          border: 2px solid transparent;
+        }
+      }
+    }
+    .wrap {
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  
+
+  aside {
+    // display:none;
+    // visibility:hidden;
+    transition:0.5s all;
+    width: 100%;
+    position: absolute;
+    z-index:10;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0 15%;
+    display: flex;
+    flex-direction: column-reverse;
+    nav {
+      display:flex;
+      padding:0;
+      width: 116%;
+    }
+    nav.fadeTime {
+      // display:none;
+    }
+    h1, p, div.fadeTime{
+      display:none;
+      animation-delay: 0s;
+      animation-duration: 1.5s;
+    }
+
+    p, p.override, div.fadeTime, h1.fadeTime {
+      margin: 0px 12% 15px;
+    }
+    .infoBurst {
+        display: flex;
+        margin: 0 0 80px 0;
+        position: absolute;
+        width: 100%;
+        bottom:0;
+        left: 0;
+        flex-direction:column;
+        align-items:center;
+        animation-name: fadeIn;  
+        animation-delay: 3.5s;
+        animation-duration: 2s;
+        animation-fill-mode: both;
+        h1 {
+          font-size: 30px;
+          display: block;
+        }
+        a {
+          position:relative;
+          z-index:100;
+          background: #002C33;
+          color: #fff;
+          font-size: 16px;
+          height: 40px;
+          width: 130px;
+          transform: skew(-20deg);
+          display: flex;
+          align-self:center;
+          justify-content: center;
+          transition:0.5s all;
+          align-items: center;
+          // border-radius: 50%;
+          text-transform: uppercase;
+          // border: 2px solid #fff;
+          font-weight:normal;
+          margin: auto;
+          margin-top:30px;
+          span {
+            transform: skew(20deg);
+          }
+          &:hover {
+            cursor:pointer;
+            background:#BE0808;
+          }
+        }
+    }
+    .noDelay {
+      animation-delay:0.5s;
+      h1 {
+        margin-bottom: -12px;
+        font-size: 50px;
+        text-shadow: #1e4e56 1px 2px 5px;
+      }
+    }
+  }
+}
+
+// IPADS ONLY
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .lightBox .infoBurst a {
+      visibility:hidden;
+    }
+    .lightBox .close {
+      font-weight:bold;
+      font-size: 50px;
+      top: 50px;
+    }
+}
+/* IPAD Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+    aside {
+      .infoBurst {
+        a {
+          font-size: 26px;
+        }
+        h1 {
+          font-size: 40px;
+          padding:0;
+        }
+      }
+    }
+    .lightBox {
+      p, p.override {
+        font-size:18px;
+      }
+    } 
+    section {
+      width: 55%;
+    }
+}
+
+/* IPHONE Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+    section {
+      width: 85%;
+    }
+    aside {
+      padding: 0 6%;
+      .wrap {
+        justify-content: flex-start;
+      }
+      nav {
+        margin-top:40px;
+        width: 100%;
+      }
+      p:last-of-type {
+        font-size: 4.8rem;
+        strong {
+          font-size: 7.5rem;
+        }
+      }
+      .infoBurst {
+        margin-bottom: 200px;
+        a {
+          font-size: 46px;
+          padding: 10px;
+          width: 300px;
+          height: 100px;
+        }
+        h1 {
+          font-size: 80px;
+          padding:0;
+          text-align: center;
+        }
+      }
+    }
+    aside div.fadeTime a {
+      font-size: 34px;
+      padding: 20px;
+      width: 45%;
+      margin-top: 30px;
+    }
+    .lightBox {
+      h1, h1.fadeTime {
+        margin: 0 0 20px 0;
+        font-size: 80px;
+      }
+      p, p.override {
+        font-size:34px;
+        margin-left: 0;
+        margin-right:0;
+        margin-bottom:18px;
+      }
+      h1 .close {
+        top: -120px;
+        right: -50px;
+      }
+    } 
+
+    .prev svg,
+    .next svg {
+      width: 130px;
+      height: 130px;
+
+    }
+
+    .lightBox .infoBurst a {
+      visibility:hidden;
+    }
+    .lightBox .close {
+      font-weight:bold;
+      font-size: 110px;
+      top: 50px;
+    }
+    nav.fadeTime {
+      top: 160px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
